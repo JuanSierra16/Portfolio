@@ -13,20 +13,23 @@
 <body>
     <header class="header">
         <a href="" class="logo">Sierra.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
         <nav class="navbar">
-            <a href="#" class="active" style="--i:1">Home</a>
-            <a href="#" style="--i:2">Portfolio</a>
-            <a href="#" style="--i:3">Contact</a>
+            <a href="#home" class="active" style="--i:1">Home</a>
+            <a href="#portfolio" style="--i:2">Portfolio</a>
+            <a href="#contact" style="--i:3">Contact</a>
         </nav>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h1>I'm Juan Jose Sierra</h1>
             <h3><span class="multiple-text"></span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, velit laborum quas adipisci iusto provident laudantium ipsa placeat, corrupti ad voluptatem eligendi fugit odit vero temporibus ipsum, corporis impedit consectetur?</p>
+            <p>"Computer Science Student. Frontend Junior developer passionate about creating impressive digital experiences."</p>
             <div class="btn-box">
-                <a href="#">Contact Me</a>
+                <a href="#contact">Contact Me</a>
                 <a href="#">Download CV</a>
             </div>
         </div>
@@ -41,6 +44,93 @@
             <img src="programmer.png" alt="">
         </div>
     </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="matrix.jpg" width="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, in.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="matrix.jpg" width="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, in.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="matrix.jpg" width="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, in.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="matrix.jpg" width="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, in.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="matrix.jpg" width="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, in.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="matrix.jpg" width="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, in.</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form id="form" action="https://formspree.io/f/xjvdnzzk"
+        method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="name">
+                <input type="email" placeholder="Email Address" name="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="number">
+                <input type="text" placeholder="Email Subject" name="subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Sierra | All Rights Reserverd.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="script.js"></script>
