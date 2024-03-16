@@ -1,6 +1,6 @@
 //Text animation
 var typed = new Typed(".multiple-text", {
-    strings: ["Web Developer", "Frontend Jr.", "Student"],
+    strings: ["Web Developer", "Full Stack Jr.", "Student"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
